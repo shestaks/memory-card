@@ -77,10 +77,12 @@ q1 = Question('Столица России', 'Москва', 'Англия', 'П
 q2 = Question('Из скольки цветов состоит российский флаг', 'три', 'один', 'четыре', 'пять')
 q3 = Question('Сколько пальцев на одной руке', 'пять', 'четыре', 'шесть', 'десять')
 q4 = Question('Цвет неба', 'Голубой', 'Алый', 'Пурпурный', 'Зеленый')
+q5 = Question('Сколько цетов радуги', '5', '6', '7', '8')
 questions_list.append(q1)
 questions_list.append(q2)
 questions_list.append(q3)
 questions_list.append(q4)
+questions_list.append(q5)
 
 
 app = QApplication([])
